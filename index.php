@@ -29,7 +29,6 @@ if(password_verify($motdePasseCorrect . $sel, $motDePasseChiffre)) {
     return "Mot de passe incorrect.";
 }
 
-}
 
 // Test fonction
 $motDePasseTest = "MotDePasse123";
